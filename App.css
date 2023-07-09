@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.main-div {
+  margin: 5px;
+  padding: 5px
+}
+
+.child-div {
+  margin: 10px;
+  padding: 5px
+}
+
+.checkbox {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+}
+
+.checkIn {
+  vertical-align: middle;
+}
+
+input {
+  margin: 10px;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(0, 68, 255);
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 5px;
+  color: white;
+  background-color: rgb(20, 59, 188);
+  float: right
+}
+
+.add-btn:hover {
+  background-color: #bbb;
+}
+
+.delete-btn{
+  background-color: rgb(20, 43, 125);
+}
+
+.delete-btn:hover {
+  background-color: #bbb;
+}
+
+.edit-btn{
+  background-color: rgb(59, 95, 224);
+}
+
+.edit-btn:hover {
+  background-color: #bbb;
+}
+
+.checkbox:hover {
+  background: #ddd;
+}
+
+.separator {
+  border-top: 3px solid #bbb;
+}
